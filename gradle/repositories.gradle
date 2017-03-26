@@ -1,0 +1,5 @@
+repositories {
+    repositories {
+        maven { url "https://nexus.moxehealth.com/repository/maven-public" }
+    }
+}
