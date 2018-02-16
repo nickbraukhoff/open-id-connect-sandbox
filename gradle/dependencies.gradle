@@ -13,6 +13,14 @@ libs += [
         groovy    : "org.codehaus.groovy:groovy-all:$versions.groovy",
         junit     : "junit:junit:$versions.junit",
         springBoot: [
-                "org.springframework.boot:spring-boot-starter-actuator"
+                "org.springframework.boot:spring-boot-autoconfigure",
+                "org.springframework.boot:spring-boot-starter-actuator",
+                "org.springframework.boot:spring-boot-starter-security",
+                'org.springframework.boot:spring-boot-starter-web',
+                'org.springframework.boot:spring-boot-starter-tomcat'
+        ],
+        security:[
+                "org.springframework.security.oauth:spring-security-oauth2:2.2.1.RELEASE",
+                "org.springframework.security:spring-security-jwt:1.0.9.RELEASE",
         ]
 ]

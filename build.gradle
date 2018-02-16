@@ -1,5 +1,5 @@
 plugins {
-    id "org.springframework.boot" version "1.5.2.RELEASE"
+    id "org.springframework.boot" version "1.5.10.RELEASE"
 }
 
 apply plugin: 'groovy'
@@ -14,7 +14,8 @@ sourceCompatibility = 1.8
 
 dependencies {
     compile libs.groovy,
-            libs.springBoot
+            libs.springBoot,
+            libs.security
 
     testCompile libs.junit
 }
